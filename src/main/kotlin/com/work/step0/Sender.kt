@@ -5,7 +5,7 @@ import io.github.oshai.kotlinlogging.KotlinLogging
 import org.springframework.amqp.rabbit.core.RabbitTemplate
 import org.springframework.stereotype.Component
 
-@Component
+//@Component
 class Sender(
     private val rabbitTemplate: RabbitTemplate,
     rabbitMQConfig: RabbitMQConfig
