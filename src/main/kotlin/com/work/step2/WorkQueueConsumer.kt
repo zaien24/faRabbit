@@ -3,7 +3,11 @@ package com.work.step2
 import io.github.oshai.kotlinlogging.KotlinLogging
 import org.springframework.stereotype.Component
 
+<<<<<<< HEAD
 //@Component
+=======
+@Component
+>>>>>>> d51761e2f81b5d74de6206411b5978b0952eca6c
 class WorkQueueConsumer {
     private val log = KotlinLogging.logger {}
 
