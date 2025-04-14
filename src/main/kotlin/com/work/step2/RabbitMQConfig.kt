@@ -9,11 +9,7 @@ import org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 
-<<<<<<< HEAD
 //@Configuration
-=======
-@Configuration
->>>>>>> d51761e2f81b5d74de6206411b5978b0952eca6c
 class RabbitMQConfig {
     @Bean
     fun queue(): Queue {
