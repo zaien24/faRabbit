@@ -4,7 +4,7 @@ import io.github.oshai.kotlinlogging.KotlinLogging
 import org.springframework.stereotype.Component
 
 
-@Component
+//@Component
 class Receiver {
     private val log = KotlinLogging.logger {}
 
